@@ -21,7 +21,7 @@ export default function HeroVideo() {
   };
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-11/12 rounded-b-2xl ">
       <video
         ref={videoRef}
         className="w-full h-full object-cover"
