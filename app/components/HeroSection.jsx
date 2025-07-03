@@ -11,8 +11,10 @@ export default function HeroSection() {
         <NavBar />
         <HeroVideo />
 
+        
+
       {/* Overlay gradient (optional for better text contrast) */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-white/60"></div>
+      {/* <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-white/60"></div> */}
 
       {/* Overlay Text & Buttons */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">

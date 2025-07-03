@@ -25,7 +25,7 @@ export default function HeroVideo() {
       <video
         ref={videoRef}
         className="w-full h-full object-cover"
-        src="/Hero1.mp4" // Replace this with your video file in public/
+        src="/Hero1.mp4"
         autoPlay
         loop
         muted
@@ -33,7 +33,7 @@ export default function HeroVideo() {
       />
       <button
         onClick={togglePlay}
-        className="absolute bottom-4 right-4 bg-black/60 text-white p-3 rounded-full hover:bg-black/80 transition"
+        className="absolute z-50 bottom-4 right-4 bg-black/60 text-white p-3 rounded-full hover:bg-black/80 transition"
         aria-label={isPlaying ? 'Pause video' : 'Play video'}
       >
         {isPlaying ? <FaPause size={18} /> : <FaPlay size={18} />}
